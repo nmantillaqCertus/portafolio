@@ -5,14 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>César Mantilla</title>
     <link rel="shortcut icon" href="/img/icons/c.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
+<!--Css Interno: en el mismo documento html-->
+<!--
+<style>
+
+    *{
+        color: blue;
+    }
+</style>
+-->
+
 <body>
     <!-- Primera Región https://dribbble.com/shots/12229931-Portafolio-Paula/-->
    <section>
         <div>
             <img src="/img/icons/csdfsdfs.png" width="60px" height="40px" alt="Logo">
         </div>
-        <div>
+        <div class="nombreclase">
             <nav>
                 <a href="#Id_Acerca">Acerca de mí</a>
                 <a href="./Page/proyecto.html" target="_blank">Proyectos</a>
@@ -20,22 +32,35 @@
                 <a href="#">Contacto</a>
             </nav>
         </div>
-        <div>
-            <p>inst</p>
-            <p>Link</p>
-            <p>Twi</p>
+        <div class="iHorizontal">
+
+            <div><img class="ilink" src="./img/resources/instagram.png" alt="Instagram">   <a href="https://www.instagram.com/" target="_blank" >Inst</a></div>
+                <div><img class="ilink" src="./img/resources/linkedin.png" alt="linkedin">   <a href="https://www.linkedin.com/" target="_blank" >Link</a></div>
+                <div>  <a href="https://www.twitter.com/" target="_blank" > <img class="ilink" src="./img/resources/logotipo-de-twitter.png" alt="twitter"> </a></div>
+            <!--
+            <ul>
+                <li>inst</li>
+                <li>Link</li>
+                <li>Twi</li>
+            </ul>
+
+            <ol>
+                <li><img class="ilink" src="./img/resources/instagram.png" alt="Instagram">   <a href="https://www.instagram.com/" target="_blank" >Inst</a></li>
+                <li><img class="ilink" src="./img/resources/linkedin.png" alt="linkedin">   <a href="https://www.linkedin.com/" target="_blank" >Link</a></li>
+                <li>  <a href="https://www.twitter.com/" target="_blank" > <img class="ilink" src="./img/resources/logotipo-de-twitter.png" alt="twitter"> </a></li>
+            </ol>-->
         </div>
         
    </section>
    <hr>
 
    <!-- Segundo Región -->
-   <section>
-    <div class="col"> 
+   <section style="color: blue; box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; padding: 30px;">
+    <div class="col nombreclase"> 
         <h1>Hola, soy CERTUS</h1>
-        <h4>Ingeniera, Web developer, Karateka</h4>
+        <h4>Ingeniera, <strong style="color: red;" >Web developer</strong>, Karateka</h4>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aspernatur sunt, modi assumenda quo quas tenetur, dolores eaque obcaecati consequatur nulla nisi cupiditate nesciunt accusantium. Obcaecati, aliquam repellendus. Necessitatibus, voluptates. </p>
-        <button>Descargar portafolio</button>
+        <button class="btn-d">Descargar portafolio</button>
     </div>
     <br>
     <br>
